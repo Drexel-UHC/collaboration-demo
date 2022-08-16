@@ -1,5 +1,6 @@
 # Documents
 
-This folder contains sjust some support documents.
+I noticed a few things that I think you can improve.
 
-- **reviewer1_notes.md** are notes from first reviewer.
+- Figure 1 title seems to have a typo.
+- Your manuscript Results are incomplete.
