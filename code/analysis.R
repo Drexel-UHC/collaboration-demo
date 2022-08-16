@@ -27,7 +27,7 @@
     labs(title = "Car Miles per gallon (mpg) vs weight (hp)")
   
   ## 1.3 Save figure
-  ggsave(plot, file = "../outputs/figure1.jpg")
+  ggsave(plot, file = "../outputs/figure1.jpg", height = 2, width = 2)
 }
 
 
