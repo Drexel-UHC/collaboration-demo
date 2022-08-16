@@ -21,13 +21,20 @@
   glimpse(data)
   
   ## 1.2 Visualization
+  plot_title = "Car Miles per gallon (mpg) vs weight (hp)"
+  
   plot = data %>% 
     ggplot(aes( x = mpg, y = wt)) +
     geom_point()+
-    labs(title = "Car Miles per gallon (mpg) vs weight (hp)")
+    labs(title = plot_title)
   
   ## 1.3 Save figure
-  ggsave(plot, file = "../outputs/figure1.jpg", height = 2, width = 2)
+  ggsave(plot, 
+         file = "../outputs/figure1.png",
+         units = 'px',
+         scale = 4,
+         width = 560,
+         height = 400)
 }
 
 
